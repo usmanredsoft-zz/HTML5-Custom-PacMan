@@ -1,0 +1,98 @@
+@font-face 
+{
+	font-family:"arcade";
+    src: url("../arcadeclassic.ttf") /* TTF file for CSS3 browsers */
+}
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: rgb(41, 41, 41);
+}
+
+#centered-block
+{
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 624px;
+	height: 760px;
+}
+
+.asset
+{
+	display: none;
+}
+
+.upper-text
+{
+	font-family:'arcade', sans-serif;
+	font-size: 35px;
+	color: white;
+}
+
+.bottom-text
+{
+	padding: 0;
+	margin-top: 670px;
+	font-family:'arcade', sans-serif;
+	font-size: 67px;
+	color: white;
+	text-align: center;
+}
+
+#background
+{
+	position: absolute;
+}
+
+#canvas
+{
+	position: absolute;
+}
+
+#start
+{
+	font-family:'arcade', sans-serif;
+	position: absolute;
+	font-size: 140px;
+	color: white;
+	text-align: center;
+	margin-top: 253px;
+	background-color: rgb(0, 0, 0);
+	border: 3px dotted white;
+	cursor: pointer;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 66px;
+}
+
+#start:hover
+{
+	background-color: rgb(40, 0, 0);
+	color: rgb(255, 200, 200);
+	
+}
+
+#level-notification
+{
+	font-family:'arcade', sans-serif;
+	position: absolute;
+	font-size: 60px;
+	color: yellow;
+	background-color: black;
+	text-align: center;
+	width: 624px;
+	margin-top: 295px;
+	cursor: pointer;
+	border: 3px dotted white;
+	display: none;
+}
